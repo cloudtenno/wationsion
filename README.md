@@ -4,20 +4,20 @@ There are few improvements made to the Genetic Algorithm Code, firstly, there ar
 
 Furthermore, to add on towards last assignment’s improvement of refreshing the population, at a pre-defined iteration called *refresh rate*, a new population will be generated for a single island. For example, if the*refresh rate* is set to be 500 iteration, island 1’s population will be regenerated at 500 iterations, island 2’s population will be regenerated at 1,000 iterations and island 3’s population will be regenerated at 1,500 iterations, so on and so forth.\
 
-To run the python file, you would need *scipy* library which can be install using pip install\
+To run the python file, you would need **scipy** library which can be install using pip install\
 
--pip install scipy-\
+**pip install scipy**\
 
 When you launch the script, you will be prompted to define the following\
 
-Number of Queen: Which sets the number of Queen in the chess board, this value needs to be bigger or equals to 1.
+**Number of Queen**: Which sets the number of Queen in the chess board, this value needs to be bigger or equals to 1.
 
-Population Size:  Which sets the population size for each island, this value needs to be bigger than 12
+**Population Size**:  Which sets the population size for each island, this value needs to be bigger than 12
 
-Mutation Rate: Which sets the probability of mutation, this value needs to be between 0 to 1
+**Mutation Rate**: Which sets the probability of mutation, this value needs to be between 0 to 1
 
-Run Limit (α): Which sets the upper limit for the script, if no answer is found after α iterations, the algorithm will stop.
+**Run Limit (α)**: Which sets the upper limit for the script, if no answer is found after α iterations, the algorithm will stop.
 
-Migration Rate (β): Which sets the rate of migration. Island migration will occur every β iterations.
+**Migration Rate (β)**: Which sets the rate of migration. Island migration will occur every β iterations.
 
-Refresh Rate (γ): Which sets the refresh rate. After γ iteration, the population in the first island will get regenerated, while at iteration nγ,n island’s population will get regenerated. This is added to getting the model out of the local minimum.
+**Refresh Rate (γ)**: Which sets the refresh rate. After γ iteration, the population in the first island will get regenerated, while at iteration nγ,n island’s population will get regenerated. This is added to getting the model out of the local minimum.
