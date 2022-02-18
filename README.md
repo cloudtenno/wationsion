@@ -6,7 +6,7 @@ Furthermore, to add on towards last assignment’s improvement of refreshing the
 
 To run the python file, you would need **scipy** library which can be install using pip install
 
-**pip install scipy**
+```pip install scipy```
 
 When you launch the script, you will be prompted to define the following
 
